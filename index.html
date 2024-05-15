@@ -4,27 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="magic.js"></script>
     <title>Rock, Paper, Scissors</title>
-    <style>
-        body {
-            background-color: rgb(41, 40, 40);
-        }
-        div {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-size: 5vh;
-            font-weight: 900;
-            color: rgb(239, 239, 239);
-            margin: 100px auto;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
+    <div class="title">
         Welcome to Rock, Paper and Scissors
     </div>
+    <div class="wrapper">
+        <div class="container">
+            <div class="choices"></div>
+            <div class="result"></div>
+            <div class="score"></div>
+            <div class="ui">
+                <button id="btn-1">Rock</button>
+                <button id="btn-2">Paper</button>
+                <button id="btn-3">Scissors</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script defer src="magic.js"></script>
 </body>
 
 </html>
