@@ -10,13 +10,19 @@
 
 <body>
     <div class="title">
-        Welcome to Rock, Paper and Scissors
+        Rock, Paper and Scissors
     </div>
     <div class="wrapper">
         <div class="container">
-            <div class="choices"></div>
-            <div class="result"></div>
-            <div class="score"></div>
+            <div class="infoDisplay">
+                <div class="choices"></div>
+                <div class="result"></div>
+                <div class="score">
+                    <div class="humanScoreDisplay"></div>
+                    <div class="computerScoreDisplay"></div>
+                </div>
+            </div>
+
             <div class="ui">
                 <button id="btn-1">Rock</button>
                 <button id="btn-2">Paper</button>
@@ -24,9 +30,9 @@
             </div>
         </div>
     </div>
-
-
-
+    <div class="footer">
+        <a href="https://github.com/smg02" target="_blank"><img src="github-mark.svg" alt="" srcset=""> - smg02</a>
+    </div>
     <script defer src="magic.js"></script>
 </body>
 
